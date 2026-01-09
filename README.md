@@ -7,7 +7,7 @@ A practical application using Sentence-Transformers for semantic search and Ultr
 
 The application is deployed and accessible here:
 
-**https://huggingface.co/spaces/gandasu/Computer_Vision_Project**
+**https://huggingface.co/spaces/gandasu/Deep-Learning-Final-Project**
 
 ## 2. Key Features
 
@@ -33,7 +33,7 @@ $$\text{Final Score} = 0.5 \times \text{Semantic Similarity} + 0.5 \times \text{
 | **`best.pt`** | YOLO model file. |
 | **`recipes_final_with_images.parquet`** | Main recipe metadata dataset. |
 | **`recipe_embeddings.npy`** | Pre-calculated embeddings for the recipe database. |
-| **`NLP_Model.ipynb` / `CV_Model.ipynb`** | Development and exploratory notebooks. |
+| **`HYBRID.ipynb` / `main.ipynb`** | Development and exploratory notebooks. |
 
 
 ## 4. Local Setup and Execution
@@ -43,16 +43,15 @@ To run this application locally, follow these steps:
 1.  **Clone the Repository:**
     ```bash
     # Step 1a: Clone the repository to your local machine
-    git clone [https://github.com/christiangandasu/Final-Project-Computer-Vision](https://github.com/christiangandasu/Final-Project-Computer-Vision)
+    git clone [https://github.com/christiangandasu/Final-Project-Deep-Learning](https://github.com/christiangandasu/Final-Project-Deep-Learning)
 
     # Step 1b: Navigate into the newly created project folder
-    cd Final-Project-Computer-Vision
+    cd Final-Project-Deep-Learning
     ```
     
 2.  **Install Dependencies:**
     ```bash
     pip install -r requirements.txt
-    python -m spacy download en_core_web_sm
     ```
     
 3.  **Run the Application:**
@@ -63,4 +62,4 @@ To run this application locally, follow these steps:
 
 ---
 
-**Authors:** [Alexander Christian Gandasurya, Samuel Jeremy Winoto, Lauw Samuel Lelono, Yonathan Immanuel Nurhan]
+**Authors:** [Alexander Christian Gandasurya, Clive Clay Irawan, Samuel Jeremy Winoto]
